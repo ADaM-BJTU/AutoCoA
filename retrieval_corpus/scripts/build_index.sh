@@ -1,0 +1,12 @@
+CUDA_VISIBLE_DEVICES="" python -m flashrag.retriever.index_builder \
+    --retrieval_method e5 \
+    --model_path ../models/e5-base-v2 \
+    --corpus_path ../retrieval_corpus/wiki21_256w.jsonl \
+    --save_dir ../retrieval_corpus \
+    --use_fp16 \
+    --max_length 512 \
+    --batch_size 2048 \
+    --pooling_method mean \
+    --faiss_type Flat \
+    --faiss_gpu \
+    --save_embedding
