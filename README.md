@@ -31,6 +31,11 @@ AutoCoA (Automatic generation of Chain-of-Action) is an agent model framework th
 
 This implementation draws heavily on [verl](https://github.com/volcengine/verl)  and [FlashRAG](https://github.com/RUC-NLPIR/FlashRAG). We extend our sincere gratitude to these projects for their valuable contributions to the open-source community.
 
+## License
+
+This work is released under the MIT License. See the [LICENSE](./LICENSE) file for more details. By using this code or associated materials, you agree to comply with the terms outlined in the license.
+
+
 <!--
 ****
 ## Citation
