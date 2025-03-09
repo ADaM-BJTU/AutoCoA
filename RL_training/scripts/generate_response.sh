@@ -1,0 +1,19 @@
+python3 -m verl.trainer.main_generation \
+    trainer.nnodes=1 \
+    trainer.n_gpus_per_node=1 \
+    data.path=data/processed/all_test_data/test.parquet\
+    data.prompt_key=prompt \
+    data.n_samples=1 \
+    data.output_path=eval_result/result.parquet \
+    model.path=hf_model_to_eval  \
+    +model.trust_remote_code=True \
+    rollout.temperature=0.6 \
+    rollout.top_p=1 \
+    rollout.top_k=-1 \
+    rollout.prompt_length=2048 \
+    rollout.response_length=12288 \
+    rollout.tensor_model_parallel_size=1 \
+    rollout.gpu_memory_utilization=0.8 \
+    +rollout.disable_log_stats=False \
+    +rollout.enable_chunked_prefill=True \
+    +rollout.n=1
