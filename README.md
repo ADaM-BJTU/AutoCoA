@@ -3,7 +3,7 @@
 <a href="https://github.com/ADaM-BJTU/AutoCoA/blob/main/CoA_paper.pdf" target="_blank">
     <img src="https://img.shields.io/badge/PDF-Download-red?logo=adobeacrobatreader" alt="PDF">
 </a>
-<a href="https://arxiv.org/abs/your-arxiv-id" target="_blank">
+<a href="https://arxiv.org/abs/2503.06580" target="_blank">
     <img src="https://img.shields.io/badge/arXiv-b5212f.svg?logo=arxiv" alt="arXiv">
 </a>
 </div>
