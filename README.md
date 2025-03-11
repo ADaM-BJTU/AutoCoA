@@ -71,7 +71,7 @@ Wait, perhaps it's a lesser-known film. Maybe I should look up which 2004 movie 
 
 I'm a bit stuck here, so I think I should perform a web search to get accurate information. Let me search for "If It Feels Good Do It" and see which movie it's in.
 
-[<begin_search>If It Feels Good Do It movie</end_search>
+<begin_search>If It Feels Good Do It movie</end_search>
 
 <search_result> result 1: "If It Feels Good Do It"
 "If It Feels Good Do It" is a song by Canadian rock band Sloan. It was released as the lead single from the band's sixth studio album, "Pretty Together". The song was first made available online in August 2001. The song was nominated for Best Single at the 2002 Juno Awards. The song is featured on the soundtrack of the EA Sports video game Triple Play 2002 and is also featured in the 2004 film "The Girl Next Door". Music video. The music video for "If It Feels Good Do It" was directed by Noble Jones. There are two different versions of the music video. The original version, known as the "People Version", which aired in Canada features a transition between the band playing and commentary of several people expressing their opinion on what rock and roll is about (in reference to Chris Murphy's opening line of the song). This version also features a cameo by Canadian rock musician Danko Jones. The other version, known as the "Performance Version", which aired in the U.S. features just the band performing without the commentary. The video won the award for "Best Video" at the East Coast Music Awards. The video also won the award for "Best Cinematography" at the 2002
@@ -86,7 +86,7 @@ Hmm, according to the first search result, "If It Feels Good Do It" is a song by
 
 Let me check who stars in "The Girl Next Door." I think it's a different cast. Maybe I should look up the cast of "The Girl Next Door" to see if it includes Emile Hirsch and Elisha Cuthbert.
 
-[<begin_search>Cast of The Girl Next Door</end_search>
+<begin_search>Cast of The Girl Next Door</end_search>
 
 <search_result> result 1: "The Girl Next Door (2004 film)"
 The Girl Next Door is a 2004 American romantic comedy film about a high school senior who falls in love for the first time with the girl next door, but finds the situation becoming complicated after he learns that she is a former pornographic actress. It stars Emile Hirsch, Elisha Cuthbert, Timothy Olyphant, James Remar, Chris Marquette and Paul Dano and is directed by Luke Greenfield. Despite mixed reviews and low theatrical attendance at the time it has gained the status of a cult classic over the years. Plot. Ambitious high school senior Matthew Kidman has been accepted to Georgetown University, but cannot afford the tuition. He has raised $25,000 in order to bring a brilliant Cambodian student, Samnang, to study in the United States, but finds little else truly memorable about his high school experience. His life suddenly changes when Danielle moves in next door. Matthew witnesses her undressing from his bedroom window, until she sees him and storms over, knocking on the door and introducing herself to his parents. They suggest to Matthew that he show Danielle around town. While driving around, Danielle stops the car and forces Matthew to get out and strip for her. The two get to know each other through weird adventures, which include Matthew finding
@@ -106,6 +106,8 @@ The 2004 film featuring "If It Feels Good Do It" and starring Emile Hirsch and E
 
 \boxed{The Girl Next Door}
 ```
+
+We noticed that the AutoCoA trained from the reasoning LLM exhibits significant differences in chain-of-thought format compared to the model trained from the base LLM. It has a longer reasoning process, incorporates its own knowledge more frequently, and calls tools when necessary.
 
 
 ## Acknowledge
