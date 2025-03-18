@@ -119,15 +119,14 @@ This implementation draws heavily on [verl](https://github.com/volcengine/verl) 
 This work is released under the MIT License. See the [LICENSE](./LICENSE) file for more details. By using this code or associated materials, you agree to comply with the terms outlined in the license.
 
 
-
-<!--
-****
 ## Citation
 
-If this work is helpful to your research, please cite our paper:
-
-<!-- ```
-@article{
-to 
+If you use **AutoCoA** or parts of this work in your research or applications, please cite the following paper:
+```
+@article{zhang2025agent,
+  title={Agent models: Internalizing Chain-of-Action Generation into Reasoning models},
+  author={Yuxiang Zhang and Yuqi Yang and Jiangming Shu and Xinyan Wen and Jitao Sang},
+  journal={arXiv preprint arXiv:2503.06580},
+  year={2025}
 }
-``` -->
+```
